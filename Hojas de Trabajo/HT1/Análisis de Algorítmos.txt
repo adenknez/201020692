@@ -1,0 +1,30 @@
+/* Carné:201020692
+
+Hoja de Trabajo 1
+Análisis de Algorítmos
+*/
+
+
+
+//Programa
+
+i = 1					//Constante = 1
+mientras (i <= n )		//Bucle hasta n 
+	j = 1				//Constante = 1
+	mientras (j <= n) 	//Bucle hasta n (complejidad logarítmica log2n)
+		j = j *2		// Constante = 1
+	fin_mientras		
+	i = i + 1			//Constante = 1
+fin_mientras
+
+
+
+//Operaciones O grande
+
+T(n) = 1 + 3n * log2n 
+T(n) = 3n * log2n 
+T(n) = n * log2n 
+
+f(n) = n  log2n
+
+O(n) = n  log(n)
